@@ -9,6 +9,23 @@ Express JSON npm Mongoose .ENV JavaScript Nodemon
 
 Table of Contents
 
+<<<<<<< HEAD
+=======
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+TASKMANAGER
+
+Empower Your Productivity, Master Your Tasks Effortlessly
+
+last-commit repo-top-language repo-language-count
+Built with the tools and technologies:
+
+Express JSON npm Mongoose .ENV JavaScript Nodemon
+
+Table of Contents
+
+>>>>>>> a857f25 (upadated code)
 Overview
 Getting Started
 Prerequisites
@@ -65,4 +82,8 @@ Taskmanager uses the {test_framework} test framework. Run the test suite with:
 
 Using npm:
 
+<<<<<<< HEAD
 npm test
+=======
+npm test
+>>>>>>> a857f25 (upadated code)
