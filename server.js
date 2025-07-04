@@ -7,8 +7,8 @@ import taskRouter from "./routes/taskRoute.js";
 import path from "path";
 import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 4000;
@@ -25,11 +25,11 @@ connectDB();
 app.use("/api/user", userRouter);
 app.use("/api/tasks", taskRouter);
 
-// Static File Serving (after API)
-app.use(express.static(path.join(__dirname, "dist")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "index.html"));
-});
+// // Static File Serving (after API)
+// app.use(express.static(path.join(__dirname, "dist")));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "dist", "index.html"));
+// });
 
 // Basic route
 app.get("/", (req, res) => {
